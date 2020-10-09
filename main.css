@@ -100,7 +100,7 @@ header{
     position: fixed;
     top: -100vh;
     z-index: 50;
-    background-color: #e0d6c3 ;
+    background-color: #e6ded1 ;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
     transition: all 650ms cubic-bezier(1,0,0,1);
@@ -120,7 +120,7 @@ li{
     font-family: 'Kaushan Script', cursive;
     font-size: 5rem;
     padding: 1rem;
-    color:white;
+    color:rgb(20, 20, 20);
 }
 
 .nav-link:hover,
