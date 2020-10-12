@@ -561,10 +561,23 @@ transform: rotate(-45deg);
 }
 @media screen and (max-width:600px){
     img{
-        width:80%;
+        width:70%;
+       
     }
+    
     .skill{
-        margin-top: 4rem;
+        margin-bottom: 15rem;
+    }
+    #services > div > div.my-skills > div:nth-child(1){
+        margin-top: 0;
+        padding-top: 0;
+    }
+    #services > div > div.my-skills > div:nth-child(2){
+        margin-bottom: 8rem;
+    }
+    #services > div > div.my-skills > div:nth-child(3){
+        margin-bottom: 0rem;
+        padding-bottom: 0;
     }
     .menu-toggler{
         top:2rem;
@@ -594,7 +607,12 @@ transform: rotate(-45deg);
     }
     .portfolio-img{
         margin: 0 0 2rem 0;
+        
         order: 1;
+    }
+    .portfolio-img img{
+       display: block;
+       margin: 5px auto;
     }
     .portfolio-description{
         margin: 0;
@@ -609,6 +627,18 @@ transform: rotate(-45deg);
     .up{
         right:2rem;
     }
+    .landing-text h6{
+        font-size: 2rem;
+    }
+    .landing-text h6::before{
+        display: none;
+    }
+    .landing-text h6::after{
+        display: none;
+    }
+   
+    
+    
 
 
     
