@@ -560,6 +560,12 @@ transform: rotate(-45deg);
 
 }
 @media screen and (max-width:600px){
+    img{
+        width:80%;
+    }
+    .skill{
+        margin-top: 4rem;
+    }
     .menu-toggler{
         top:2rem;
         right: 2rem;
@@ -582,6 +588,9 @@ transform: rotate(-45deg);
     }
     .portfolio-item{
         flex-direction: column;
+    }
+    .portfolio-item img{
+       margin-left: 50px;
     }
     .portfolio-img{
         margin: 0 0 2rem 0;
